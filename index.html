@@ -36,14 +36,21 @@
       to { background-position: 200% center; }
     }
 
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      max-width: 900px;
+      width: 100%;
+      padding: 20px;
+    }
+
     .card {
       background: white;
       border-radius: 15px;
       padding: 20px;
-      max-width: 400px;
       text-align: center;
       box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-      margin-bottom: 40px;
     }
 
     img {
@@ -86,19 +93,40 @@
   </style>
 </head>
 <body>
-  <h1>Roblox T-Shirts 👕</h1>
+  <h1>🌈 Oskars Roblox T-Shirts 👕</h1>
 
-  <div class="card">
-    <img src="DEIN-BILD-LINK.png" alt="Mein Roblox T-Shirt">
-    <h2>Cooles Roblox T-Shirt</h2>
-    <p>Mach deinen Avatar noch stylischer ✨</p>
-    <a class="btn" href="https://www.roblox.com/catalog/DEINE-ID" target="_blank">Jetzt auf Roblox ansehen 🚀</a>
-  </div>
-  <div class="card">
-    <img src="DEIN-BILD-LINK.png" alt="Mein Roblox T-Shirt">
-    <h2>Cooles Roblox T-Shirt</h2>
-    <p>Mach deinen Avatar noch stylischer ✨</p>
-    <a class="btn" href="https://www.roblox.com/catalog/DEINE-ID" target="_blank">Jetzt auf Roblox ansehen 🚀</a>
+  <div class="gallery">
+    <!-- T-Shirt 1 -->
+    <div class="card">
+      <img src="DEIN-BILD-1.png" alt="Roblox T-Shirt 1">
+      <h2>T-Shirt 1</h2>
+      <p>Mach deinen Avatar stylisch ✨</p>
+      <a class="btn" href="https://www.roblox.com/catalog/DEINE-ID-1" target="_blank">Ansehen 🚀</a>
+    </div>
+
+    <!-- T-Shirt 2 -->
+    <div class="card">
+      <img src="DEIN-BILD-2.png" alt="Roblox T-Shirt 2">
+      <h2>T-Shirt 2</h2>
+      <p>Cooles Design für Roblox 🎨</p>
+      <a class="btn" href="https://www.roblox.com/catalog/DEINE-ID-2" target="_blank">Ansehen 🚀</a>
+    </div>
+
+    <!-- T-Shirt 3 -->
+    <div class="card">
+      <img src="DEIN-BILD-3.png" alt="Roblox T-Shirt 3">
+      <h2>T-Shirt 3</h2>
+      <p>Mach dein Outfit einzigartig 😎</p>
+      <a class="btn" href="https://www.roblox.com/catalog/DEINE-ID-3" target="_blank">Ansehen 🚀</a>
+    </div>
+
+    <!-- T-Shirt 4 -->
+    <div class="card">
+      <img src="DEIN-BILD-4.png" alt="Roblox T-Shirt 4">
+      <h2>T-Shirt 4</h2>
+      <p>Frisches Design für Roblox 👕</p>
+      <a class="btn" href="https://www.roblox.com/catalog/DEINE-ID-4" target="_blank">Ansehen 🚀</a>
+    </div>
   </div>
 
 </body>
